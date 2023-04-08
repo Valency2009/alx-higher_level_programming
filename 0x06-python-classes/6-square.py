@@ -53,7 +53,7 @@ class Square:
             return
 
         [print("") for i in range(0, self.__position[1])]
-        for i in range(0, self.__size):
-            [print(" ", end="") for m in range(0, self.__position[0])]
-            [print("#", end="") for w in range(0, self.__size)]
+        for counter in range(0, self.__size):
+            [print(" ", end="") for y in range(0, self.__position[0])]
+            [print("#", end="") for a in range(0, self.__size)]
             print("")
